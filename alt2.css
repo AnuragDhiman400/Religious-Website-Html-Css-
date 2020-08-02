@@ -15,7 +15,7 @@ body {
 
 #main {
     width: 80%;
-    height: 1200px;
+    height: 1305px;
     background-color: black;
     opacity: 0.98;
     margin: 0 10% 0 10%;
@@ -171,5 +171,5 @@ p {
 }
 
 .small {
-    margin-top: 180px;
+    margin-top: 280px;
 }
