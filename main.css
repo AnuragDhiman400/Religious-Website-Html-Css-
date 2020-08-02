@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', arial, sans-serif;
+    zoom: 99%;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 #main {
     width: 80%;
-    height: 1020px;
+    height: 1100px;
     background-color: black;
     opacity: 0.95;
     margin: 0 10% 0 10%;
@@ -101,4 +102,14 @@ td {
     border: 1px solid white;
     padding: 4px;
     color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    #lowercontent {
+        width: 90%;
+        margin: 5%;
+        height: 100px;
+        margin-top: 190px;
+    }
 }
